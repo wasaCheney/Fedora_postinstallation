@@ -14,6 +14,7 @@
 - Zathura, pdf
 - Anydesk, remote desk
 - Jabref, reference management
+- PeaZip, file archiver
 
 ## Texlive
 
