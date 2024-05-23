@@ -1,10 +1,12 @@
 # Fedora post-installation
 - Update, `sudo dnf update -y`
+- Ghleper
 - [Enable rpmfusion free and nonfree](https://rpmfusion.org/Configuration)
   - `sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm`
 
 # Apps via GetApps
 - gnome tweak tools/extentions
+- Chrome, Edge
 - GIMP, Blender, 2D/3D image processing
 - LibreOffice suite (TexMath extention. and WPS office - online version - tex supported, MicroSoft Office - online version)
 - Draw.io (Of course it can works online, flowchart, mindmap, etc.)
@@ -25,5 +27,8 @@
 ## Anaconda Pytorch
 - Anaconda, [download and install](https://www.anaconda.com/download/success)
 - Pytorch, [CLI install](https://pytorch.org/get-started/locally/)
+
+## Matlab
+- ???
 
 ## Vim NVim SpaceVim
