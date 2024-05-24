@@ -33,3 +33,7 @@
 - ???
 
 ## Vim NVim SpaceVim
+- [NVim](https://github.com/neovim/neovim/blob/master/INSTALL.md)
+  - `sudo dnf install -y neovim python3-neovim`
+- [Spacevim](https://spacevim.org/)
+  - python, latex, markdown...
