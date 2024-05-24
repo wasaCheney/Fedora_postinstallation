@@ -13,7 +13,7 @@
 - Flameshot (works properly under X11 rather than Wayland, screenshot)
 - Zathura, pdf
 - Anydesk, remote desk
-- Jabref, reference management
+- Jabref, reference management, [browser extension](https://docs.jabref.org/collect/jabref-browser-extension)
 - PeaZip, file archiver
 
 ## Texlive
