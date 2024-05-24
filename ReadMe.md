@@ -33,6 +33,8 @@
 - ???
 
 ## Vim NVim SpaceVim
+- Vim keybind for gnome-terminal
+  - Add `set -o vi` to `.bashrc`
 - [NVim](https://github.com/neovim/neovim/blob/master/INSTALL.md)
   - `sudo dnf install -y neovim python3-neovim`
 - [Spacevim](https://spacevim.org/)
