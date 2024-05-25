@@ -3,6 +3,7 @@
 - Ghleper
 - [Enable rpmfusion free and nonfree](https://rpmfusion.org/Configuration)
   - `sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm`
+- [ ] Mount drive on startup:
 
 # Apps via GetApps
 - gnome tweak tools/extentions
