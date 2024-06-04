@@ -17,7 +17,11 @@
 - Flameshot (works properly under X11 rather than Wayland, screenshot)
 - Zathura, pdf
   - [Config](https://gist.github.com/michaelmrose/9595075b43f24aa903fa)
-  - mkdir and create file, `~/.config/zathura/zathurarc`
+    - mkdir and create file, `~/.config/zathura/zathurarc`
+  - Make backward search working:
+    - Set zathura as the default app for pdf files: choose a pdf file, and right click open with, set as default
+    - Modify the spacevim latex.vim, comment out `let g:tex_flavor = "latex"`, and add `let g:vimtex_view_method = "zathra"`
+    - Then modify your tex file, compile, `CTRL + Click` will take you back from zathura pdf to the tex file
 - Anydesk, remote desk
 - Jabref, reference management, [browser extension](https://docs.jabref.org/collect/jabref-browser-extension)
 - PeaZip, file archiver
