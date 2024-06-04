@@ -16,6 +16,8 @@
 - Draw.io (Of course it can works online, flowchart, mindmap, etc.)
 - Flameshot (works properly under X11 rather than Wayland, screenshot)
 - Zathura, pdf
+  - [Config](https://gist.github.com/michaelmrose/9595075b43f24aa903fa)
+  - mkdir and create file, `~/.config/zathura/zathurarc`
 - Anydesk, remote desk
 - Jabref, reference management, [browser extension](https://docs.jabref.org/collect/jabref-browser-extension)
 - PeaZip, file archiver
