@@ -25,7 +25,7 @@
     - Modify the spacevim latex.vim, comment out `let g:tex_flavor = "latex"`, and add `let g:vimtex_view_method = "zathra"`
     - Then modify your tex file, compile, `CTRL + Click` will take you back from zathura pdf to the tex file
 - Anydesk, remote desk
-- Jabref, reference management, [browser extension](https://docs.jabref.org/collect/jabref-browser-extension)
+- Jabref, reference management, [browser extension](https://docs.jabref.org/collect/jabref-browser-extension), [for flatpak browser](https://github.com/JabRef/JabRef-Browser-Extension/issues/611#event-13223959021)
 - PeaZip, file archiver
 
 ## Texlive
