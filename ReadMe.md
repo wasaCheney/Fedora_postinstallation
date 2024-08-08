@@ -29,7 +29,6 @@
 - PeaZip, file archiver
 
 ## Texlive
-
 - [Fedora Rec.](https://docs.fedoraproject.org/en-US/neurofedora/latex/)
   - `sudo dnf install texlive-scheme-full`
 - Overleaf may be the best oneline version for tex
@@ -51,3 +50,27 @@
   - `sudo dnf install -y neovim python3-neovim`
 - [Spacevim](https://spacevim.org/)
   - python, latex, markdown...
+
+## SSH
+- To prevent ssh server from suspending,
+  - List  gnome power daemon, `sudo -u gdm dbus-run-session gsettings list-recursively org.gnome.settings-daemon.plugins.power | grep sleep`
+  - Modify the value of type to `nothing` and timeout to `0`, respectively,
+  - `sudo -u gdm dbus-run-session gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'`
+  - `sudo -u gdm dbus-run-session gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 0`
+  - `sudo -u gdm dbus-run-session gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-type 'nothing'`
+  - `sudo -u gdm dbus-run-session gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-timeout 0`
+- One may also find similar output by,
+  - `gsettings list-recursively org.gnome.settings-daemon.plugins.power`
+    - one could also change the related values
+- To keep ssh alive,
+  - SSH config, ~.ssh/config
+    ```
+    Host *
+     ServerAliveInterval 60
+     ServerAliveCountMax 120
+    ```
+  - SSHD config, /etc/ssh/sshd_config
+    ```
+    ClientAliveInterval 60
+    ClientAliveCountMax 120
+    ```
