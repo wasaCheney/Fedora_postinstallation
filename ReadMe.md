@@ -52,6 +52,7 @@
   - python, latex, markdown...
 
 ## SSH
+- Always use tmux work along with ssh!
 - To prevent ssh server from suspending,
   - List  gnome power daemon, `sudo -u gdm dbus-run-session gsettings list-recursively org.gnome.settings-daemon.plugins.power | grep sleep`
   - Modify the value of type to `nothing` and timeout to `0`, respectively,
